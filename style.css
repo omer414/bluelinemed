@@ -456,10 +456,17 @@ input[type=text], input[type=password], input.text, input.title, textarea, selec
 .campaigns .campaigndate{text-align:right; }
 .campaigns .campaigndata{font-size: 14px; font-family: Helvetica, Arial, san-serif;}
 
+<<<<<<< HEAD
 .transit-list ul li
 {
 	list-style: none;
 	display: inline-block;
 	padding:0px 30px;
 	border-right: 1px solid red;
+=======
+.campaigndata > div{
+display:inline!important;
+}.campaigndata > a:nth-child(2){
+display:block!important;
+>>>>>>> 63293b6a715a7ec717559634487e75f87822770b
 }
