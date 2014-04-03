@@ -455,3 +455,9 @@ input[type=text], input[type=password], input.text, input.title, textarea, selec
 .campaigns ul li{border-bottom:1px dotted #999;margin-bottom:10px;}
 .campaigns .campaigndate{text-align:right; }
 .campaigns .campaigndata{font-size: 14px; font-family: Helvetica, Arial, san-serif;}
+
+.campaigndata > div{
+display:inline!important;
+}.campaigndata > a:nth-child(2){
+display:block!important;
+}
