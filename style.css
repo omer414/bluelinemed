@@ -462,6 +462,7 @@ input[type=text], input[type=password], input.text, input.title, textarea, selec
 	display: inline-block;
 	padding:0px 30px;
 	border-right: 1px solid red;
+}
 
 .campaigndata > div{
 display:inline!important;
