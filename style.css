@@ -554,3 +554,52 @@ table tr td
 	background-color: #f5f5f5;
 	/*border:1px solid;*/
 }
+
+/*************** Mobile Menu Tabs ****************/
+/*.mobtab:first-child{text-align: center;}
+.mobtab{
+	font-size:2em;
+	color:#069;
+	font-family: Helvetica, Arial, san-serif;
+	font-weight: bold;
+	padding:10px 0px;
+	padding-left:20px;
+	border-bottom: 2px solid #666;
+	display: block;
+}
+.mobtab:hover{
+	cursor: pointer;
+}
+.mobtab .glyphicon{color:#000;float:right;margin-right: 10px;}
+.outdoorads .title{color:#F60;font-size: 4em;font-weight: bolder;padding:10px 0px;padding-left:20px;text-align: center;}
+.outdoorads{text-align: center;border-bottom: 2px solid #666; }
+
+.outdoorads ul li:nth-child(odd){list-style-type: none;float:left;}
+.outdoorads ul li:nth-child(even){list-style-type: none;}*/
+.navbar-header button.header-icons{font-size:2em;padding-top:0px;}
+
+.panel{
+border-bottom: 2px solid #666;
+}
+.panel-title a{font-size: 2em;
+color: #069;
+font-family: Helvetica, Arial, san-serif;
+font-weight: bold;
+padding: 10px 0px;
+padding-left: 20px;
+}
+.panel-title a:hover{text-decoration: none;cursor: pointer;}
+.panel-group .panel{margin-top: 0px!important;}
+h4.panel-title .glyphicon {margin-top: 5px;}
+.mobioutdoorads a{color: #F60!important;
+font-size: 4em;
+font-weight: bolder;
+padding: 10px 0px;
+padding-left: 20px;
+text-align: center;}
+ul.mobirecentcampaign li{display:block!impor;}
+.callquote{font-size: 18px!important;font-weight:bolder; margin: 0.3em 0 0.3em 0.3em !important;color: #069;margin-bottom: 0px !important;text-align: left;}
+.phonequote{font-size: 18px!important;font-weight:bolder; margin: 0.3em 0 0.3em 0.3em !important;color: #ff6600;margin-bottom: 0px !important;text-align: left;}
+.callforquote,.mobisearch{background-color:#fff;border-bottom: 2px solid #666; }
+#collapseOne input[type="text"],#collapseOne .btnn,#collapseOne .text-input-grey{width:100%;}
+#collapseOne{padding:10px;}

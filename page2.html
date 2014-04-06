@@ -52,8 +52,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
          </button>
-         <button type="button" class="header-icons glyphicon glyphicon-search btn btn-default btn-lg visible-xs pull-right" />
-          <button type="button" class="header-icons glyphicon glyphicon-earphone btn btn-default btn-lg visible-xs pull-right" />
+         <button type="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSearch" class="header-icons glyphicon glyphicon-search btn btn-default btn-lg visible-xs pull-right" />
+          <button type="button" data-toggle="collapse" data-parent="#accordion" href="#collapsePhone" class="header-icons glyphicon glyphicon-earphone btn btn-default btn-lg visible-xs pull-right" />
         </div>
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
           <ul class="nav navbar-nav visible-xs">
@@ -93,10 +93,195 @@
     </div>
   </div>
 
-<div class="space"></div>
-<div class="container border">
+<!--------------------------------- Mobile Tabs Start ---------------------------------->
+<div class="mobi visible-xs">
+    <div class="row ">
+      <div class="panel-group" id="accordion">
+          <div class="callforquote">
+          <div id="collapsePhone" class="panel-collapse collapse ">
+            <div class="panel-body" style="text-align:center">
+               <span class="callquote">Call for free Quote</span>
+               <span class="phonequote">(800) 807 0360</span>
+            </div>
+          </div>
+          </div>
+          <div class="mobisearch">
+          <div id="collapseSearch" class="panel-collapse collapse ">
+            <div class="panel-body" style="text-align:center">
+              <form action="#" method="GET"><label for="search">Search &nbsp;</label><input type="text" id="search" name="search"></form>
+            </div>
+          </div>
+          </div>
+        <div class="panel">
+          <div class="panel-heading" style="text-align:center" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" >
+                Get Free Quote
+              </a><i class="indicator glyphicon glyphicon-plus  pull-right"></i>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse ">
+            <div class="panel-body">
+              <form>
+                Company:<br><input type="text" class="text-input-grey"><br>
+                Name:<br><input type="text" class="text-input-grey"><br>
+                Phone:<br><input type="text" class="text-input-grey"><br>
+                E-mail:<br><input type="text" class="text-input-grey"><br>
+                Cities:<br><input type="text" class="text-input-grey"><br>
+                Ad formats:<br><input type="text" class="text-input-grey"><br>
+                Budjet:<br><input type="text" class="text-input-grey"><br>
+                How do you hear about us:<br>
+                <select class="text-input-grey">
+                    <option value="Not Selected">please select</option>
+                    <option value="Google">Google</option>
+                    <option value="Yahoo">Yahoo</option>
+                    <option value="Bing">Bing</option>
+                    <option value="OutdoorBillboard.com">OutdoorBillboard.com</option>
+                    <option value="Convention">Convention</option>
+                    <option value="Referral">Referral</option>
+                    <option value="Other">Other</option>
+                  </select>
+                <input class=" btnn btn btn-success" type="button" name="" value="Get a Quote">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="panel ">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsethree">
+            <h4 class="panel-title mobioutdoorads" style="text-align:center">
+              <a class="accordion-toggle" >
+                Campaigns
+              </a><i class="indicator glyphicon glyphicon-minus  pull-right"></i>
+            </h4>
+          </div>
+          <div id="collapsethree" class="panel-collapse collapse in">
+            <div class="panel-body mobicampaigns">
+            
+            </div>
+          </div>
+        </div>
+        <div class="panel ">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" >
+                About
+              </a><i class="indicator glyphicon glyphicon-plus  pull-right"></i>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p style="padding:10px;">Blue Line Media is an advertising company that offers advertising media in 300 cities across the United States.<br><br>
+                <b>Advertising comes in all forms:</b> transit advertising, bus advertising, bus stop advertising, bus shelter advertising, street advertising, bench advertising, billboard advertising, mall advertising, airport advertising, taxi advertising, subway advertising, train-rail advertising, mobile billboard advertising and more.<br><br>
+                <b>Which type of advertising signs do you prefer?</b><br> Whichever advertising format you prefer, this advertising agency can package and deliver ads for you in 300 cities nationwide.
+                First, browse through the website to see all various advertising formats. Then, review the market list on each ad format's page to find your desired market(s). Finally, contact Blue Line Media to obtain a detailed quote for your selected advertising formats.</p>
+            </div>
+          </div>
+        </div>
+         <div class="panel ">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" >
+                Campaigns
+              </a><i class="indicator glyphicon glyphicon-plus  pull-right"></i>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="campaigns" style="background:none;">
+          <ul>
+          <li>
+            <a href="#" class="campign-thumbnail">
+              <img src="images/content/ross-1-400x310.jpg" alt="" />
+            </a>
+            <div>Ross promotes new store openings with city bus ads.</div>
+            <a href="#">Read More</a>
+          </li>
+          <li>
+            <a href="#" class="campign-thumbnail">
+              <img src="images/content/scdoh-2013-5-400x310.jpg" alt="" />
+            </a>
+            <div>Health dept uses bathroom, coaster and c-store ads to deliver news about new law.</div>
+            <a href="#">Read More</a>
+          </li>
+          <li>
+            <a href="#" class="campign-thumbnail">
+              <img src="images/content/poc-2012-133x78.jpg" alt="" />
+            </a>
+            <div>Career college uses multple ad formats to reach students.</div>
+            <a href="#" class="entry-title">Read More</a>
+          </li>
+          <li>
+            <a href="#" class="campign-thumbnail">
+              <img src="images/content/jet-li-133x78.jpg" alt="" />
+            </a>
+            <div>Jet Li movie advertised inside subways in big cities.</div>
+            <a href="#" class="entry-title">Read More</a>
+          </li>
+        </ul>
+        </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel ">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" >
+                Client List
+              </a><i class="indicator glyphicon glyphicon-plus  pull-right"></i>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse">
+            <div class="panel-body">
+                  <div class="client" style="background:none;">
+                    <ul>
+                      <li><img src="images/client/logo-cdc-100x100.png"></li>
+                      <li><img src="images/client/logo-peta-100x100.png"></li>
+                      <li><img src="images/client/logo-box-tops-100x100.png"></li>
+                      <li><img src="images/client/logo-humana-100x100.png"></li>
+                      <li><img src="images/client/logo-wwe-100x100.png"></li>
+                      <li><img src="images/client/logo-circle-k-100x100.png"></li>
+                      <li><img src="images/client/logo-hr-block100x100.png"></li>
+                      <li><img src="images/client/logo-hhs-100x100.png"></li>
+                      <li><img src="images/client/logo-college-board-100x100.png"></li>
+                      <li><img src="images/client/logo-nasa-100x100.png"></li>
+                    </ul>
+                    </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel ">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" >
+                From Clients
+              </a><i class="indicator glyphicon glyphicon-plus  pull-right"></i>
+            </h4>
+          </div>
+          <div id="collapseSix" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="our-clients" style="background:none;">
+                  <img src="images/client/logo-peta-133x65.png" alt="" />
+                  <p>"One call to Blue Line Media provides us with any advertising option in any city across the country." 
+                  —Matt Freeman, Media</p>
+                  <img src="images/client/logo-pn-133x52.png" alt="" />
+                  <p>"Blue Line Media has executed multiple government PSA campaigns in multiple U.S. cities, thereby giving our clients a truly national reach."
+                  —Sarah Parada, VP</p>
+                  <img src="images/client/logo-kff-133x126.png" alt="" />
+                  <p>"As a supporting partner of Greater Than AIDS, Blue Line Media helps reach those in heavily affected areas with targeted messages about HIV/AIDS." 
+                  —Sarah Levine, Sr. Officer</p>
+                 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--------------------------------- Mobile Tabs End ---------------------------------->
+<div class="space hidden-xs"></div>
+<div class="container border  hidden-xs">
 <div class="row">
-    <div class="col-sm-1 left-sidebar hidden-xs">
+    <div class="col-sm-1 left-sidebar">
         <div class="menu border bgrad">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -132,17 +317,19 @@
       </div>
     </div>
 
+<div class="campaign-gallery-wrap">
 <div class="col-sm-8 campaign-gallery">
 <h1>Pacific Oaks College Uses Multiple Media Formats to Make a Big Impact</h1>
-    <div class="border">
+    <div class="border campaigns">
     <h2>Career College Uses Billboards, Buses and Rail Ads to Reach Future Students</h2>
     <div class="row">
     
       <div class="col-sm-8 col-sm-push-4 next-prev">
       <ul>
-        <li><a href="#">All Campaigns</a></li>
-        <li><a href="#">Pre</a></li>
-        <li><a href="#">Next </a></li>
+       
+        <li><a href="#"><< Prev</a></li>
+         <li><a href="#">All Campaigns</a></li>
+        <li><a href="#">Next >></a></li>
       </ul>
       </div>
     
@@ -161,10 +348,10 @@
       <img class="small" src="images/page2/poc-2012-4-400x310.jpg">
       <img class="small" src="images/page2/poc-2012-5-400x310.jpg">
       <img class="small" src="images/page2/poc-2012-5-400x310.jpg">
+      <img  class="small" src="images/page2/poc-2012-1-400x310.jpg">
       <img class="small" src="images/page2/poc-2012-5-400x310.jpg">
-      <img class="small" src="images/page2/poc-2012-5-400x310.jpg">
-      <img class="small" src="images/page2/poc-2012-5-400x310.jpg">
-      <img class="small" src="images/page2/poc-2012-5-400x310.jpg">
+      <img  class="small" src="images/page2/poc-2012-1-400x310.jpg">
+      <img  class="small" src="images/page2/poc-2012-2-400x310.jpg">
     </div>
     </div>
     
@@ -177,12 +364,8 @@
     </div>
     </div>
     </div> <!-- Parent col-sm-8 end -->
+</div>
 
-
-
-
-
-    
     <div class="col-sm-3 hidden-xs">
       <div class="border quote" style="margin-top:34px; padding-left:12px;">
           <h2>Get Free Quote</h2><br>
@@ -260,7 +443,7 @@
 </div>
 
 
-<div class="space"></div>
+<div class="space hidden-xs"></div>
   <div class="container border footer">
     <div class="row">
     <div class="col-sm-1"></div>
@@ -307,7 +490,7 @@
         </ul>
       </div>
 
-      <div class="col-sm-3 footer-menu">
+      <div class="col-sm-3 footer-menu  hidden-xs">
         <h2>Other</h2>
         <ul>
           <li><a href="#">Site Map</a></li>
@@ -337,16 +520,19 @@
 <script>
 
 $(document).ready(function(){
-
    if ($("#phone").css("display") == "none" ){
-    $('.container.header').removeClass('bgrad');
-    $('.container.header').removeClass('border');
-	
+    $('.container.header').removeClass('bgrad border');
+	  $('.container.header').css('border-bottom','2px solid #666');
+    $('.container.border.footer').removeClass('border footer');
 	var	image = $('.campaign-gallery .border .row .col-md-4.sideimg').html();
 	$('.campaign-gallery .border .row .col-md-4.sideimg').empty();
 	$('.campaign-gallery .imagerow .col-sm-12').prepend(image);
 	$('.campaign-gallery .row.imagerow .col-sm-12 img:nth-last-child(2)').css('margin-right','10px');
-	
+
+  var text = $('.campaign-gallery-wrap').html();
+  $('.campaign-gallery-wrap').empty();
+  $('.mobicampaigns.panel-body').empty().append(text);
+  $('.col-sm-8.campaign-gallery .border').removeClass('border campaigns');
 	}
 	
 	$('.campaign-gallery img.small').click(function(){
@@ -354,6 +540,17 @@ $(document).ready(function(){
 		$('.campaign-gallery .bigimg').empty().append('<img class="big" src="'+link+'">');
 	});
 });
+
+function toggleChevron(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find("i.indicator")
+        .toggleClass('glyphicon-minus glyphicon-plus');
+}
+$('#accordion').on('hidden.bs.collapse', toggleChevron);
+$('#accordion').on('shown.bs.collapse', toggleChevron);
+
+
 </script>
 </body>
 </html>
