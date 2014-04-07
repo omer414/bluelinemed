@@ -21,6 +21,7 @@ body {
 	font-size: 15px;
 	text-decoration: none;
 	font-weight: bolder;
+	color: #006699;
 }
 .main-menu ul li a:hover{
 	color:#F60;
@@ -57,7 +58,7 @@ body {
 }
 #phone h1{
 	font-size: 24px !important;
-	color: #2581c4;
+	color: #006699;
 	margin: 0px !important;
 	font-weight: bolder;
 }
@@ -82,7 +83,7 @@ h2
 h1
 {
 	font-size: 18px !important;
-	color:#2581c4;
+	color:#006699;
 	margin:0px !important;
 	padding: 10px 0;
 }
@@ -124,7 +125,7 @@ ul
 	font-family: Helvetica, Arial, san-serif;
 	font-weight: bold;
 	font-size: 12px;
-	color: #2581c4;
+	color: #006699;
 	/*padding-left: 5px;*/
 	text-decoration: none;
 }
@@ -231,7 +232,7 @@ ul
 
 .campaigns a
 {
-	color: #2581c4;
+	color: #006699;
 	font-weight: bold;
 	font-size: 1em;
 	text-decoration: none;
@@ -390,7 +391,7 @@ ul
 	/*font-weight: bold;*/
 	font-size: 12px;
 	line-height: 24px;
-	color: #2581c4;
+	color: #006699;
 	/*padding-left: 5px;*/
 	text-decoration: none;
 }
@@ -420,7 +421,7 @@ ul
 {
 	font-size: 12px;
 	font-weight: bold;
-	color: #2581c4;
+	color: #006699;
 }
 .next-prev a:hover
 {
@@ -481,7 +482,7 @@ display:block!important;
 	list-style: none;
 	display: inline-block;
 	padding:3px 32px;
-	border-right: 1px solid #2581c4;
+	border-right: 1px solid #006699;
 	text-decoration: underline;
 }
 .transit-adds
@@ -500,7 +501,7 @@ display:block!important;
 }
 .transit-adds img
 {
-	border:1px solid #2581c4;
+	border:1px solid #006699;
 	border-radius: 5px;
 }
 .add ul
@@ -521,7 +522,7 @@ display:block!important;
 .transit-adds ul li a:hover
 {
 	color:#ff6600;
-	border-color: #2581c4;
+	border-color: #006699;
 }
 .transit-adds p
 {
@@ -603,3 +604,38 @@ ul.mobirecentcampaign li{display:block!impor;}
 .callforquote,.mobisearch{background-color:#fff;border-bottom: 2px solid #666; }
 #collapseOne input[type="text"],#collapseOne .btnn,#collapseOne .text-input-grey{width:100%;}
 #collapseOne{padding:10px;}
+
+.contact
+{
+	padding-top:30px;
+	font-size: 12px;
+	font-family: Helvetica, Arial, san-serif;	
+}
+.contact img
+{
+	padding: 10px;
+}
+#secretary
+{
+	font-size: 12px;
+}
+#secretary p
+{
+	padding-top: 30px;
+}
+
+{
+	color: red;
+}
+#secretary img
+{
+	border:1px solid #006699;
+	width: 90%;
+	margin-top: 30px;
+
+}
+.contact p
+{
+	padding-left: 56px;
+
+}
