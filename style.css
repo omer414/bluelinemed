@@ -57,10 +57,11 @@ body {
 
 }
 #phone h1{
-	font-size: 24px !important;
+	font-size: 25px !important;
 	color: #006699;
 	margin: 0px !important;
 	font-weight: bolder;
+	line-height: 0px;
 }
 .navbar{background-color: transparent;border:none;}
 .navbar-toggle{margin:0px;}
@@ -115,6 +116,12 @@ ul
 {
 	padding-bottom: 15px;
 }
+.quote form{
+	font-weight: bold;
+}.quote h2{
+	font-weight: bold;
+}
+
 .menu ul li
 {
 	list-style: none;
@@ -251,7 +258,7 @@ ul
 .campign-thumbnail img
 {
 	width: 130px;
-	height: 89px;
+	height: 82px;
 	float: left;
 	padding:0px 10px 10px 0px;
 
@@ -344,7 +351,7 @@ ul
 }
 .btnn
 {
-	width: 87% !important;
+	width: 90% !important;
 	padding:3px !important;
 	/*background: #336799;*/
 	/*border-radius: 5px;*/
@@ -637,5 +644,4 @@ ul.mobirecentcampaign li{display:block!impor;}
 .contact p
 {
 	padding-left: 56px;
-
 }
