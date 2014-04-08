@@ -1,6 +1,9 @@
 /* Layout
 ================================ */
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
 	background-color:#ccc;
 }
@@ -54,14 +57,14 @@ body {
 	line-height: 25px;
 	color: #F60;
 	margin-top: 10px;
-
+	line-height: 0px;
 }
 #phone h1{
 	font-size: 25px !important;
 	color: #006699;
 	margin: 0px !important;
 	font-weight: bolder;
-	line-height: 0px;
+	line-height: 15px;
 }
 .navbar{background-color: transparent;border:none;}
 .navbar-toggle{margin:0px;}
@@ -598,7 +601,7 @@ table tr td
 .outdoorads ul li:nth-child(even){list-style-type: none;}*/
 .navbar-header button.header-icons{font-size:2em;padding-top:0px;}
 
-.panel{
+.panel{ul 
 border-bottom: 2px solid #666;
 }
 .panel-title a{font-size: 2em;
@@ -619,7 +622,7 @@ h4.panel-title .glyphicon {margin-top: 5px;}
 	}
 }
 .mobioutdoorads a{color: #F60!important;
-font-size: 4em;
+font-size: 3em;
 font-weight: bolder;
 padding: 10px 0px;
 padding-left: 20px;
@@ -630,7 +633,7 @@ ul.mobirecentcampaign li{display:block!impor;}
 .callforquote,.mobisearch{background-color:#fff;border-bottom: 2px solid #666; }
 #collapseOne input[type="text"],#collapseOne .btnn,#collapseOne .text-input-grey{width:100%;}
 #collapseOne{padding:10px;}
-
+.mobiads ul li{list-style-type: none;}
 .contact
 {
 	padding-top:30px;
@@ -650,9 +653,6 @@ ul.mobirecentcampaign li{display:block!impor;}
 	padding-top: 30px;
 }
 
-{
-	color: red;
-}
 #secretary img
 {
 	border:1px solid #006699;
