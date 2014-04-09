@@ -664,3 +664,7 @@ ul.mobirecentcampaign li{display:block!impor;}
 {
 	padding-left: 56px;
 }
+.navbar-toggle
+{
+	padding:9px 7px !important;
+}
