@@ -12,8 +12,11 @@
   <body>
   <div class="container header bgrad border">
     <div class="row">
-      <div class="col-sm-3 pull-left">
+      <div class="col-sm-3 pull-left hidden-xs">
         <img src="images/logo.png"/>
+      </div>
+      <div class="col-sm-3 pull-left visible-xs" sytle="margin-top:10px;">
+        <img src="images/logo.png" width="140" height="65" />
       </div>
       <div class="main-menu col-sm-6 navbar navbar-default">
         <ul class="hidden-xs">
@@ -156,15 +159,22 @@
             <h4 class="panel-title mobioutdoorads" style="text-align:center">
               <a class="accordion-toggle" >
                 Outdoor Ads
-              </a><i class="indicator glyphicon glyphicon-minus  pull-right"></i>
+              </a><i class="indicator glyphicon glyphicon-plus  pull-right"></i>
             </h4>
+            <div class="adds">
+            <ul>
+                <li><a href="#">Billboard Ads<br><img class="ads-images" src="images/billboard-advertising-companies-250x150.jpg" alt=""></a></li>
+                <li><a href="#">Bus Ads<br><img class="ads-images" src="images/bus-advertising-250x150.jpg" alt=""></a></li>
+              </ul>
+            </div>
           </div>
-          <div id="collapsethree" class="panel-collapse collapse in">
+
+          <div id="collapsethree" class="panel-collapse collapse">
             <div class="panel-body">
+              
              <div class="adds" style="border:0px;border-radius:0px;background:none;">
         <ul>
-          <li><a href="#">Billboard Ads<br><img class="ads-images" src="images/billboard-advertising-companies-250x150.jpg" alt=""></a></li>
-          <li><a href="#">Bus Ads<br><img class="ads-images" src="images/bus-advertising-250x150.jpg" alt=""></a></li>
+         
           <li><a href="#">Bus Stop Ads<br><img class="ads-images" src="images/bus-shelter-250x150.jpg" alt=""></a></li>
           <li><a href="#">Bench Ads<br><img class="ads-images" src="images/bench-advertising-250x150.jpg" alt=""></a></li>
           <li><a href="#">Mall Ads<br><img class="ads-images" src="images/mall-advertising-250x150.jpg" alt=""></a></li>
@@ -177,6 +187,51 @@
             </div>
           </div>
         </div>
+        <div class="panel">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsethreehalf">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" >
+                Ads
+              </a><i class="indicator glyphicon glyphicon-plus  pull-right"></i>
+            </h4>
+          </div>
+          <div id="collapsethreehalf" class="panel-collapse collapse ">
+            <div class="panel-body">
+                <div class="row">
+                  <div class="col-sm-12 mobiads">
+                <div class="col-xs-6 ">
+                  <ul>
+                    <li><a href="#">Outdoor Advertising</a></li>
+                    <li><a href="#">Billboard Advertising</a></li>
+                    <li><a href="#">Transit Advertising</a></li>
+                    <li><a href="#">Bus Advertising</a></li>
+                    <li><a href="#">Bus Stop / Shelter Advertising</a></li>
+                    <li><a href="#">Street Advertising</a></li>
+                    <li><a href="#">Bench Advertising</a></li>
+                    <li><a href="#">Mall Advertising</a></li>
+                    <li><a href="#">Airport Advertising</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-xs-6 col_last" >
+                  <ul>
+                    <li><a href="#">Taxi Advertising</a></li>
+                    <li><a href="#">Gas Station Advertising</a></li>
+                    <li><a href="#">Supermarket Advertising</a></li>
+                    <li><a href="#">Convenience Store Advertising</a></li>
+                    <li><a href="#">Coffee Cup Advertising</a></li>
+                    <li><a href="#">Cash Jacket Advertising</a></li>
+                    <li><a href="#">Subway Advertising</a></li>
+                    <li><a href="#">Train-Rail Advertising</a></li>
+                    <li><a href="#">Mobile Billboard Advertising</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
         <div class="panel ">
           <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
             <h4 class="panel-title">
@@ -525,12 +580,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script>
-$(window).resize(function(){  
-  if ($("#phone").css("display") == "none" ){
-    $('.container.header').removeClass('bgrad');
-  }
-});
-<script>
 $(document).ready(function(){  
   if ($("#phone").css("display") == "none" ){
     $('.container.header').removeClass('bgrad border');
@@ -546,7 +595,6 @@ function toggleChevron(e) {
 }
 $('#accordion').on('hidden.bs.collapse', toggleChevron);
 $('#accordion').on('shown.bs.collapse', toggleChevron);
-</script>
 </script>
 </body>
 </html>
