@@ -578,30 +578,9 @@ table tr td
 	/*border:1px solid;*/
 }
 
-/*************** Mobile Menu Tabs ****************/
-/*.mobtab:first-child{text-align: center;}
-.mobtab{
-	font-size:2em;
-	color:#069;
-	font-family: Helvetica, Arial, san-serif;
-	font-weight: bold;
-	padding:10px 0px;
-	padding-left:20px;
-	border-bottom: 2px solid #666;
-	display: block;
-}
-.mobtab:hover{
-	cursor: pointer;
-}
-.mobtab .glyphicon{color:#000;float:right;margin-right: 10px;}
-.outdoorads .title{color:#F60;font-size: 4em;font-weight: bolder;padding:10px 0px;padding-left:20px;text-align: center;}
-.outdoorads{text-align: center;border-bottom: 2px solid #666; }
-
-.outdoorads ul li:nth-child(odd){list-style-type: none;float:left;}
-.outdoorads ul li:nth-child(even){list-style-type: none;}*/
 .navbar-header button.header-icons{font-size:2em;padding-top:0px;}
 
-.panel{ul 
+.panel{ 
 border-bottom: 2px solid #666;
 }
 .panel-title a{font-size: 2em;
@@ -615,8 +594,7 @@ padding-left: 20px;
 .panel-group .panel{margin-top: 0px!important;}
 h4.panel-title .glyphicon {margin-top: 5px;}
 
-@media only screen and (max-width : 440px)
-{
+@media only screen and (max-width : 440px){
 	.glyphicon{
 		padding: 0px;
 	}
@@ -634,33 +612,25 @@ ul.mobirecentcampaign li{display:block!impor;}
 #collapseOne input[type="text"],#collapseOne .btnn,#collapseOne .text-input-grey{width:100%;}
 #collapseOne{padding:10px;}
 .mobiads ul li{list-style-type: none;}
-.contact
-{
+.contact{
 	padding-top:30px;
 	font-size: 12px;
 	font-family: Helvetica, Arial, san-serif;	
 }
-.contact img
-{
+.contact img{
 	padding: 10px;
 }
-#secretary
-{
+#secretary{
 	font-size: 12px;
 }
-#secretary p
-{
+#secretary p{
 	padding-top: 30px;
 }
-
-#secretary img
-{
+#secretary img{
 	border:1px solid #006699;
 	width: 90%;
 	margin-top: 30px;
-
 }
-.contact p
-{
-	padding-left: 56px;
-}
+.contact p{	padding-left: 56px;}
+.navbar-toggle{	padding: 9px 7px;}
+.mobi .client ul li{width:100px;}
