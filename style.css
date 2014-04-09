@@ -631,17 +631,6 @@ ul.mobirecentcampaign li{display:block!impor;}
 	width: 90%;
 	margin-top: 30px;
 }
-<<<<<<< HEAD
-.contact p
-{
-	padding-left: 56px;
-}
-.navbar-toggle
-{
-	padding:9px 7px !important;
-}
-=======
 .contact p{	padding-left: 56px;}
-.navbar-toggle{	padding: 9px 7px;}
+.navbar-toggle{	padding:9px 7px !important;}
 .mobi .client ul li{width:100px;}
->>>>>>> ba0102cd8d23783accd80399b140d868a5239f8e
