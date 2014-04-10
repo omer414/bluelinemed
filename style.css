@@ -8,7 +8,7 @@ body {
 	background-color:#ccc;
 }
 .container {
-	max-width: 1000px;
+	max-width: 960px;
 	background-color: #fff;
 	padding-left: 30px;
 }
@@ -92,7 +92,7 @@ h2
 
 	font-size: 18px;
 	font-weight: bold;
-	line-height: 10px;
+	line-height: 20px;
 	color: #F60;
 	padding: 0 0 10px 0;
 	}
@@ -165,6 +165,10 @@ ul
 	border-radius: 10px;
 	padding-top: 8px;
 	padding-bottom: 20px;
+	
+}
+.adds-bgrad
+{
 	background: #b8d7e4; /* Old browsers */
 	background: -moz-linear-gradient(top,  #b8d7e4 1%, #ffffff 7%, #ffffff 94%, #b8d7e4 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#b8d7e4), color-stop(4%,#ffffff), color-stop(96%,#ffffff), color-stop(100%,#b8d7e4)); /* Chrome,Safari4+ */
@@ -176,7 +180,7 @@ ul
 }
 .adds img
 {
-	width: 140px;
+	width: 136px;
 	height: 105px;
 	border-radius: 5px;
 }
@@ -298,6 +302,7 @@ ul
 {
 	margin-bottom: 25px;
 	border-radius: 10px;
+	text-align: center;
 	background: #b8d7e4; /* Old browsers */
 	background: -moz-linear-gradient(top,  #b8d7e4 1%, #ffffff 10%, #ffffff 90%, #b8d7e4 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#b8d7e4), color-stop(10%,#ffffff), color-stop(90%,#ffffff), color-stop(100%,#b8d7e4)); /* Chrome,Safari4+ */
@@ -333,7 +338,7 @@ ul
 }
 .our-clients
 {
-
+	/*width: 80%;*/
 	border-radius: 10px;
 	background: #b8d7e4; /* Old browsers */
 	background: -moz-linear-gradient(top,  #b8d7e4 1%, #ffffff 4%, #ffffff 96%, #b8d7e4 100%); /* FF3.6+ */
@@ -384,6 +389,7 @@ ul
 	margin-top: 10px;
 }
 
+
 .footer
 {
 	border-radius: 10px;
@@ -426,8 +432,14 @@ ul
 {
 	color: #ff6600;
 }
+.advertising
+{
+	margin-top:55px;
+}
 .quote
 {
+	padding: 12px 0 12px 12px;
+	/*width: 80%;*/
 	margin-top: 40px !important;
 	border-radius: 10px;
 	background: #b8d7e4; /* Old browsers */
@@ -621,8 +633,9 @@ padding: 10px 0px;
 padding-left: 20px;
 }
 .panel-title a:hover{text-decoration: none;cursor: pointer;}
-.panel-group .panel{margin-top: 0px!important;}
-h4.panel-title .glyphicon {margin-top: 5px;}
+.panel-group .panel{margin-top: 0px!important;border-bottom: 1px solid #000;}
+h4.panel-title .glyphicon {margin-top: 5px; margin-right: 15px;}
+.adds.panel-title .glyphicon {margin-top: 5px; margin-right: 15px;}
 
 @media only screen and (max-width : 440px)
 {
@@ -631,7 +644,7 @@ h4.panel-title .glyphicon {margin-top: 5px;}
 	}
 }
 .mobioutdoorads a{color: #F60!important;
-font-size: 3em;
+font-size: 2.5em;
 font-weight: bolder;
 padding: 10px 0px;
 padding-left: 20px;
@@ -642,7 +655,7 @@ ul.mobirecentcampaign li{display:block!impor;}
 .callforquote,.mobisearch{background-color:#fff;border-bottom: 2px solid #666; }
 #collapseOne input[type="text"],#collapseOne .btnn,#collapseOne .text-input-grey{width:100%;}
 #collapseOne{padding:10px;}
-.mobiads ul li{list-style-type: none;}
+.mobiads ul li{list-style-type: none; margin-left: 10px;}
 .contact
 {
 	padding-top:30px;
@@ -677,3 +690,24 @@ ul.mobirecentcampaign li{display:block!impor;}
 {
 	padding: 9px 7px;
 }
+.col-sm-8.hidden-xs.new{padding:right:0px;}
+.signup
+{
+	/*width: 80%;*/
+}
+.signup p
+{
+	font-size: 12px;
+	font-weight: helvetica;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+{
+	background-color: #fff;
+}
+@media only screen and (max-width : 500px) {
+	.advertising
+	{
+		margin-top:-20px;
+	}
+
+	}
