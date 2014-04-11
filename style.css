@@ -483,13 +483,13 @@ input[type=text], input[type=password], input.text, input.title, textarea, selec
 	}
 
 .campaign-gallery > .row:first-child{margin-top:10px;margin-bottom:10px;}
-.campaign-gallery img.small{width:194px!important; padding-bottom: 10px;}
-.campaign-gallery img.big{width:400px!important;}
+.campaign-gallery img.small{width:186px!important; padding-bottom: 10px;}
+.campaign-gallery img.big{width:385px!important;}
 .campaign-gallery >.row >div{padding:0px;}
 .campaign-gallery >.row >div:first-child{padding-left:10px;}
 .imagerow div > img{margin-right:10px;}
 .imagerow div > img:nth-last-child(2){margin-right:10px;}
-.imagerow{margin-top:10px;}
+//.imagerow{margin-top:10px;}
 .adcontent{margin-top:20px;}
 .adcontent p
 {
