@@ -633,6 +633,11 @@ function toggleChevron(e) {
 }
 $('#accordion').on('hidden.bs.collapse', toggleChevron);
 $('#accordion').on('shown.bs.collapse', toggleChevron);
+
+if($("pannel").find(".collapse").css("display")=="block")
+{
+  $(this).closest(".pannel").sibling(".pannel").css("border:none";)
+}
 </script>
 </body>
 </html>
