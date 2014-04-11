@@ -48,6 +48,7 @@
         </ul>
 
 <!------------------- Responsive Header ---------------------->
+        
         <div class="navbar-header">
          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
@@ -58,10 +59,11 @@
           <button type="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSearch" class="header-icons glyphicon glyphicon-search btn btn-default btn-lg visible-xs pull-right" style="padding:0px 5px 5px 5px"/>
           <button type="button" data-toggle="collapse" data-parent="#accordion" href="#collapsePhone" class="header-icons glyphicon glyphicon-earphone btn btn-default btn-lg visible-xs pull-right" style="padding-bottom:5px;"/>
         </div>
+
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
           <ul class="nav navbar-nav visible-xs">
           <li class="dropdown active">
-              <a href="#" class="dropdown-toggle " data-toggle="dropdown">Ads <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ads <i style="font-size:12px;" class="glyphicon glyphicon-chevron-down"></i></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Billboard Ads</a></li>
                 <li><a href="#">Transit Ads</a></li>
@@ -101,7 +103,6 @@
 <div class="mobi visible-xs">
     <div class="row ">
       <div class="panel-group" id="accordion">
-
 
           <div class="callforquote">
           <div id="collapsePhone" class="panel-collapse collapse ">
@@ -617,7 +618,12 @@ $(document).ready(function(){
     $('.container.header').removeClass('bgrad border');
     $('.container.header').css('border-bottom','2px solid #666');
     $('.container.border.footer').removeClass('border footer');
+
+    $('.nav.navbar-nav.visible-xs a.dropdown-toggle').click(function(){
+      $('.nav.navbar-nav.visible-xs a.dropdown-toggle i.glyphicon').toggleClass('glyphicon-chevron-down').toggleClass('glyphicon-chevron-up');
+    });
   }
+      $('.mobi .panel .panel-body').addClass('mobi-panel-border');
 });
 function toggleChevron(e) {
     $(e.target)
@@ -627,11 +633,6 @@ function toggleChevron(e) {
 }
 $('#accordion').on('hidden.bs.collapse', toggleChevron);
 $('#accordion').on('shown.bs.collapse', toggleChevron);
-
-if($("pannel").find(".collapse").css("display")=="block")
-{
-  $(this).closest(".pannel").sibling(".pannel").css("border:none";)
-}
 </script>
 </body>
 </html>
