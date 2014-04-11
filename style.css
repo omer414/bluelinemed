@@ -363,7 +363,7 @@ ul
 	float: left;
 }
 .text-input-grey {
-	max-width: 90%;
+	width: 100%;
 	background-color: #ffffff;
 	font-family: Helvetica, Arial, san-serif;;
 	font-size: 1em;
@@ -377,7 +377,7 @@ ul
 }
 .btnn
 {
-	width: 90% !important;
+	width: 100% !important;
 	padding:3px !important;
 	/*background: #336799;*/
 	/*border-radius: 5px;*/
@@ -438,7 +438,7 @@ ul
 }
 .quote
 {
-	padding: 12px 0 12px 12px;
+	padding: 12px;
 	/*width: 80%;*/
 	margin-top: 40px !important;
 	border-radius: 10px;
@@ -704,10 +704,14 @@ ul.mobirecentcampaign li{display:block!impor;}
 {
 	background-color: #fff;
 }
+@media only screen and (max-width : 768px) {
+		.col-sm-8.new .col-sm-12 h1{
+			font-size:18px!important;
+		}
+	}
 @media only screen and (max-width : 500px) {
 	.advertising
 	{
 		margin-top:-20px;
 	}
-
 	}
