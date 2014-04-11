@@ -601,10 +601,10 @@ $(document).ready(function(){
   $('.mobi .mobicampaigns img').click(function(){
     imgtoshow = $(this).attr('src');
     $('.mobi .bigimg img').attr('src',imgtoshow);
-    //var test = $('.mobi .bigimg img').attr('src');
-    //alert(test);
-  });
-
+    });
+    $('.nav.navbar-nav.visible-xs a.dropdown-toggle').click(function(){
+      $('.nav.navbar-nav.visible-xs a.dropdown-toggle i.glyphicon').toggleClass('glyphicon-chevron-down').toggleClass('glyphicon-chevron-up');
+    });
   }
 	
 	$('.campaign-gallery img.small').click(function(){
