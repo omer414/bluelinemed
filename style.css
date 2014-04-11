@@ -622,7 +622,7 @@ table tr td
 .outdoorads ul li:nth-child(even){list-style-type: none;}*/
 .navbar-header button.header-icons{font-size:2em;padding-top:0px;}
 
-.panel{ul 
+.panel{
 border-bottom: 2px solid #666;
 }
 .panel-title a{font-size: 2em;
@@ -655,11 +655,9 @@ ul.mobirecentcampaign li{display:block!impor;}
 .callforquote,.mobisearch{background-color:#fff;border-bottom: 2px solid #666; }
 #collapseOne input[type="text"],#collapseOne .btnn,#collapseOne .text-input-grey{width:100%;}
 #collapseOne{padding:10px;}
-<<<<<<< HEAD
-.mobiads ul li{list-style-type: none; margin-left: 10px;}
-=======
+
 .mobiads ul li{list-style-type: none;}
->>>>>>> parent of ba0102c... page2.html finalized
+
 .contact
 {
 	padding-top:30px;
@@ -684,8 +682,6 @@ ul.mobirecentcampaign li{display:block!impor;}
 	border:1px solid #006699;
 	width: 90%;
 	margin-top: 30px;
-
-<<<<<<< HEAD
 }
 .contact p
 {
@@ -722,11 +718,4 @@ ul.mobirecentcampaign li{display:block!impor;}
 	{
 		margin-top:-20px;
 	}
-	}
-=======
 }
-.contact p
-{
-	padding-left: 56px;
-}
->>>>>>> parent of ba0102c... page2.html finalized
